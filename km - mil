@@ -1,0 +1,7 @@
+#Kilometreyi mile donusturmek icin deger girilmesini istedik
+km = int(input("Kilometre degerini girin:"))
+#1km = 0.621371
+oran = 0.621371
+#Km'yi mil donusturme formulu
+mil= km*oran
+print("mil cinsinden girilen deger:",mil)
